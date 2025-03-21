@@ -95,6 +95,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5754084199372789682, guid: e2eb50243a2bd3447b252df9909f6de3,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -6444849280572918265, guid: d3a41a530451548b0b447671c952ea11,
+        type: 3}
     - target: {fileID: -470105419996812873, guid: e2eb50243a2bd3447b252df9909f6de3,
         type: 3}
       propertyPath: m_IsActive
@@ -171,7 +177,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: -6628509316843880950, guid: e2eb50243a2bd3447b252df9909f6de3, type: 3}
+  m_Mesh: {fileID: -6444849280572918265, guid: d3a41a530451548b0b447671c952ea11, type: 3}
 --- !u!4 &6794997144783689950 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e2eb50243a2bd3447b252df9909f6de3,
