@@ -22,20 +22,20 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: MAT_WhiskyBottle
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _ALPHATEST_ON
-  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2450
   stringTagMap:
     IGNOREPROJECTOR: False
-    RenderType: Transparent
-  disabledShaderPasses:
-  - DepthOnly
-  - SHADOWCASTER
+    RenderType: TransparentCutout
+  disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -188,6 +188,7 @@ Material:
     - _AlphaClip: 1
     - _AlphaClipping: 0
     - _AlphaCutoff: 0.5
+    - _AlphaToMask: 1
     - _Ambient_strength: 0.5
     - _Artistic: 0
     - _ArtisticFrequency: 1
@@ -196,6 +197,7 @@ Material:
     - _Blend: 0
     - _BlendDst: 0
     - _BlendDstAlpha: 0
+    - _BlendModePreserveSpecular: 1
     - _BlendSrc: 1
     - _BlendSrcAlpha: 1
     - _Brightness: 1
@@ -205,7 +207,7 @@ Material:
     - _ColorGrading: 0
     - _Color_variation_OnOFF: 1
     - _Contrast: 1
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 1
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
@@ -218,7 +220,8 @@ Material:
     - _DrawnClampMax: 1
     - _DrawnClampMin: 0
     - _DrawnMapScale: 1
-    - _DstBlend: 10
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _Falloff_Amount: 1
     - _Fresnel_max: 2
@@ -269,7 +272,8 @@ Material:
     - _SpecularThresholdOffset: 0.25
     - _Specular_from_VertexColor: 1
     - _Specular_from_vertexColor: 0
-    - _SrcBlend: 5
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
     - _Stencil: 1
     - _StencilComp: 8
     - _StencilFail: 0
@@ -279,7 +283,7 @@ Material:
     - _StencilWriteMask: 255
     - _StencilZFail: 0
     - _StylizeTab: 1
-    - _Surface: 1
+    - _Surface: 0
     - _ThresholdMapScale: 1
     - _VertexAnimation: 0
     - _VertexAnimationIntensity: 0.05
@@ -287,7 +291,7 @@ Material:
     - _WorkflowMode: 1
     - _WrappedLighting: 0
     - _ZTest: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     - _contrast_level_max: 0.48
     - _contrast_level_min: 0.09
     m_Colors:

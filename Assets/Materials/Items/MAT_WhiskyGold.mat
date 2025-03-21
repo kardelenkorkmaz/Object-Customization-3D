@@ -21,7 +21,10 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MAT_WhiskyGold
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 6890100e381434b479bb3d8eede1b53f,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -32,6 +35,7 @@ Material:
     IGNOREPROJECTOR: False
     RenderType: Opaque
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -184,6 +188,7 @@ Material:
     - _AlphaClip: 0
     - _AlphaClipping: 0
     - _AlphaCutoff: 0.5
+    - _AlphaToMask: 0
     - _Ambient_strength: 0.5
     - _Artistic: 0
     - _ArtisticFrequency: 1
@@ -192,10 +197,12 @@ Material:
     - _Blend: 0
     - _BlendDst: 0
     - _BlendDstAlpha: 0
+    - _BlendModePreserveSpecular: 1
     - _BlendSrc: 1
     - _BlendSrcAlpha: 1
     - _Brightness: 1
     - _BumpScale: 1
+    - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _ColorGrading: 0
@@ -215,6 +222,7 @@ Material:
     - _DrawnClampMin: 0
     - _DrawnMapScale: 1
     - _DstBlend: 0
+    - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _Falloff_Amount: 1
     - _Fresnel_max: 2
@@ -237,7 +245,7 @@ Material:
     - _LightBandsScale: 0.5
     - _LightThreshold: 0.5
     - _Lighting_Cutoff: -0.75
-    - _Metallic: 0.281
+    - _Metallic: 1
     - _Normal: 0
     - _NormalMapIntensity: 1
     - _Normal_map: 1
@@ -256,7 +264,7 @@ Material:
     - _Saturation: 1
     - _Shadow_Texture: 1
     - _SketchMapScale: 1
-    - _Smoothness: 0.489
+    - _Smoothness: 0.66
     - _SmoothnessTextureChannel: 0
     - _Specular: 1
     - _SpecularHighlights: 1
@@ -266,6 +274,7 @@ Material:
     - _Specular_from_VertexColor: 1
     - _Specular_from_vertexColor: 0
     - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
     - _Stencil: 1
     - _StencilComp: 8
     - _StencilFail: 0
@@ -284,12 +293,14 @@ Material:
     - _WrappedLighting: 0
     - _ZTest: 4
     - _ZWrite: 1
+    - _ZWriteControl: 0
     - _contrast_level_max: 0.48
     - _contrast_level_min: 0.09
     m_Colors:
     - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor: {r: 1, g: 0.7914926, b: 0, a: 1}
-    - _Color: {r: 1, g: 0.7914925, b: 0, a: 1}
+    - _Color: {r: 1.7207953, g: 1.3881766, b: 0.13798833, a: 1}
+    - _Color_1: {r: 0.70710677, g: 0.40785864, b: 0, a: 0}
     - _Color_Variation: {r: 1, g: 0.6179246, b: 0.9842442, a: 0}
     - _Diffuse_Color: {r: 1, g: 1, b: 1, a: 0}
     - _DissolveBorderColor: {r: 1, g: 1, b: 1, a: 1}
